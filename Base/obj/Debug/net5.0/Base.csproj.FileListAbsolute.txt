@@ -1,0 +1,15 @@
+D:\asp.net\Base\bin\Debug\net5.0\Base.deps.json
+D:\asp.net\Base\bin\Debug\net5.0\Base.runtimeconfig.json
+D:\asp.net\Base\bin\Debug\net5.0\Base.runtimeconfig.dev.json
+D:\asp.net\Base\bin\Debug\net5.0\Base.dll
+D:\asp.net\Base\bin\Debug\net5.0\ref\Base.dll
+D:\asp.net\Base\bin\Debug\net5.0\Base.pdb
+D:\asp.net\Base\obj\Debug\net5.0\Base.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Base\obj\Debug\net5.0\Base.AssemblyInfoInputs.cache
+D:\asp.net\Base\obj\Debug\net5.0\Base.AssemblyInfo.cs
+D:\asp.net\Base\obj\Debug\net5.0\Base.csproj.CoreCompileInputs.cache
+D:\asp.net\Base\obj\Debug\net5.0\Base.dll
+D:\asp.net\Base\obj\Debug\net5.0\ref\Base.dll
+D:\asp.net\Base\obj\Debug\net5.0\Base.pdb
+D:\asp.net\Base\obj\Debug\net5.0\Base.genruntimeconfig.cache
+D:\asp.net\Base\obj\Debug\net5.0\Base.csprojAssemblyReference.cache

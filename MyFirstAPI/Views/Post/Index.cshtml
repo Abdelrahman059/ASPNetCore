@@ -1,0 +1,95 @@
+﻿@model IEnumerable<DataAccess.Models.Post>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+@{var count = 0; }
+<p>
+    <a asp-action="Create">Create New</a>
+    <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Logout"> Logout</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.author.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subtitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Body)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+            count++;
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Title)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.author.FullName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Subtitle)
+    </td>
+    <td>
+        @if (item.ImageUrl != "" && item.ImageUrl != null)
+        {
+            <img src="~/uploads/@item.ImageUrl" style="width:64px;" class="img-thumbnail" />
+        }
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CreatedDate)
+    </td>
+    <td>
+        @Html.Raw(item.Body)
+    </td>
+
+    @if (item.author.UserEmail == ViewBag.MyCookie)
+    {
+        <td>
+            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+        </td>
+    }
+</tr>
+}
+    </tbody>
+</table>
+
+@{
+    var Pageno = ViewBag.pageNumber;
+}
+@if (Pageno > 1)
+{
+    <a asp-action="Index"
+       asp-route-pageNumber="@(Pageno - 1)"
+       class="btn btn-default">
+        Previous
+    </a>
+}
+@Pageno
+@if (count == 5 & ViewBag.notNow != 1)
+{
+    <a asp-action="Index" asp-route-pageNumber="@(Pageno + 1)" class="btn btn-default">
+        Next
+    </a>
+}
+
