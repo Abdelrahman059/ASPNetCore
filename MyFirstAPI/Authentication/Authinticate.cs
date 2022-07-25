@@ -67,7 +67,7 @@ namespace blogWebAPI.Authentication
             dfagd
             var handler = new JwtSecurityTokenHandler();
             var token = handler.ReadJwtToken(JwtToken);
-            var NeededEmail = token.Claims.First(claim => claim.Type == "unique_name").Value;
+            var NeededEmail = token.Claims.First(claim => claim.Type == "unique_Key").Value;
             return NeededEmail;
         }
 
