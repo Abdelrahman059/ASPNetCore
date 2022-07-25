@@ -6253,19 +6253,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Shami\\.nuget\\packages\\": {}
+    "C:\\Users\\Shami\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\asp.net\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "D:\\asp.net\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Shami\\.nuget\\packages\\",
-      "outputPath": "D:\\asp.net\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Shami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
