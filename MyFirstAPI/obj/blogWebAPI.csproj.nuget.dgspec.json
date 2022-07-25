@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\asp.net\\MyFirstAPI\\blogWebAPI.csproj": {}
+    "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\MyFirstAPI\\blogWebAPI.csproj": {}
   },
   "projects": {
-    "D:\\asp.net\\Base\\Base.csproj": {
+    "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\Base\\Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\asp.net\\Base\\Base.csproj",
+        "projectUniqueName": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\Base\\Base.csproj",
         "projectName": "Base",
-        "projectPath": "D:\\asp.net\\Base\\Base.csproj",
+        "projectPath": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\Base\\Base.csproj",
         "packagesPath": "C:\\Users\\Shami\\.nuget\\packages\\",
-        "outputPath": "D:\\asp.net\\Base\\obj\\",
+        "outputPath": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\Base\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Shami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,17 +98,21 @@
         }
       }
     },
-    "D:\\asp.net\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\asp.net\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\asp.net\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Shami\\.nuget\\packages\\",
-        "outputPath": "D:\\asp.net\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Shami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -188,17 +196,21 @@
         }
       }
     },
-    "D:\\asp.net\\MyFirstAPI\\blogWebAPI.csproj": {
+    "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\MyFirstAPI\\blogWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\asp.net\\MyFirstAPI\\blogWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\MyFirstAPI\\blogWebAPI.csproj",
         "projectName": "blogWebAPI",
-        "projectPath": "D:\\asp.net\\MyFirstAPI\\blogWebAPI.csproj",
+        "projectPath": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\MyFirstAPI\\blogWebAPI.csproj",
         "packagesPath": "C:\\Users\\Shami\\.nuget\\packages\\",
-        "outputPath": "D:\\asp.net\\MyFirstAPI\\obj\\",
+        "outputPath": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\MyFirstAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Shami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -212,11 +224,11 @@
           "net5.0": {
             "targetAlias": "netcoreapp5.0",
             "projectReferences": {
-              "D:\\asp.net\\Base\\Base.csproj": {
-                "projectPath": "D:\\asp.net\\Base\\Base.csproj"
+              "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\Base\\Base.csproj": {
+                "projectPath": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\Base\\Base.csproj"
               },
-              "D:\\asp.net\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\asp.net\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Shami\\Desktop\\Geeks\\ASPNetCore\\DataAccess\\DataAccess.csproj"
               }
             }
           }
